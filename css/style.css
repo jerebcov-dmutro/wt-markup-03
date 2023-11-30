@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import 'node_modules/modern-normalize/modern-normalize.css';
+:root {
+    --st-color: #2196F3;
+    --sd-color: #757575;
+    --wt-color: #FFF;
+    --gr-color: #212121; 
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    color: var(--gr-color);
+
+
+}
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+}
+
+.perevagu-fon
+{
+    height: 120px;
+    width: 270px;
+    background-color: #F5F4FA;
+
+}
+
+
+
+.logo {
+    text-decoration: none;
+    color: #000;
+    font-size: 26px;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+}
+
+header .link {
+
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+header .nav {
+    color: var(--gr-color);
+}
+
+main h1 {
+
+    color: var(--wt-color);
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.m-background {
+    height: 600px;
+    width: 100%;
+    background-color: #2F303A;
+}
+
+.m-background>button {
+
+    height: 50px;
+    width: 200px;
+    background-color: var(--st-color);
+    color: var(--wt-color);
+    font-size: 16px;
+    font-weight: 700px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.m-background>button:hover {
+    background-color:#188CE8;
+}
+
+.hide {
+    display: none;
+}
+
+.accom {
+    font-size: 14px;
+
+}
+
+.accom h3 {
+    text-transform: uppercase;
+    color: var(--gr-color);
+}
+
+.worksektion h2 {
+
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.worksektion img {
+    border-radius: 10px;
+}
+
+
+
+.ourteam h2 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.ourteam .posada {
+    font-size: 16px;
+    color: var(--sd-color);
+}
+
+.namehandle {
+    font-weight: 800;
+    color: var(--gr-color);
+}
+
+.button-icon {
+    fill: #AFB1B8;
+}
+
+.buttonlink {
+    height: 44px;
+    width: 44px;
+    background-color: var(--wt-color);
+    border-radius: 40px;
+}
+
+.buttonlink:hover {
+    background-color: var(--st-color);
+}
+
+.buttonlink:hover .button-icon {
+    fill: var(--wt-color);
+}
+
+.footerdiv {
+    width: 100%;
+    height: 252px;
+    background-color: #2F303A;
+}
+
+footer p {
+    font-size: 14px;
+    color: var(--wt-color);
+}
+
+.footercont {
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--sd-color);
+}
+
+.logo>span,
+.link:hover {
+    color: var(--st-color);
+    fill: var(--st-color);
+}
+
+header .contact,
+.accom p {
+    color: var(--sd-color);
+}
+
+.buttonfuter
+{
+    background-color: #43444d;
+    height: 44px;
+    width: 44px;
+    border-radius: 40px;
+}
+.buttonfuter:hover
+{
+        background-color: var(--st-color);
+}
+.button-iconf {
+    fill:var(--wt-color);
+    opacity: 100%;
+}
+
+.footertext
+{
+    color:var(--wt-color);
+    font-weight: 500;
+    font-size: 14px;
+
+}
+.footerholder
+{
+    background-color: #2F303A;
+    height: 50px;
+    width: 385px;
+    border: solid;
+    border-color: var(--sd-color);
+    border-radius: 4px;
+    border-width: 1px;
+}
+.footerbutton
+{
+    height: 50px;
+    width: 200px;
+    background-color: var(--st-color);
+    fill: var(--wt-color);
+    color: var(--wt-color);
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: #000;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+
+.footerbutton:hover {
+    background-color:#188CE8;
+}
+.allfooter
+{
+    display: flex;
+}
