@@ -9,21 +9,21 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <title>Dev-studio</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
   </head>
   <body>
     <!--Шапка сайту-->
-    <header>
-      <nav>
+    <header class="header">
+      <nav class="headernav">
         <a href="./index.html" class="logo"> <span>Dev</span>Studio </a>
-        <ul>
+        <ul class="about">
           <li><a href="./about.html" class="link nav">Про нас</a></li>
           <li><a href="./portfolio.html" class="link nav">Портфоліо</a></li>
           <li><a href="./contacts.html" class="link nav">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="headercont">
         <li>
           <a href="mailto:info@devstudio.com " class="link contact">
             <svg width="16" height="12" class="link contact">
@@ -49,12 +49,14 @@
           <h1>
             Ми створюємо легкі рішення <br />складних завдань для вашого бізнеса
           </h1>
-          <button type="button">Замовити послугу</button>
+          <span>
+            <button class="zamovutu" type="button">Замовити послугу</button>
+          </span>
         </div>
       </section>
 
       <!--Наші переваги-->
-      <section>
+      <section class="centner">
         <h2 class="hide">Наші переваги</h2>
         <ul class="accom">
           <li>
@@ -110,7 +112,7 @@
       <!--Роботи на яких ми спеціалізуємось-->
       <section class="worksektion">
         <h2>Роботи на яких спеціалізуємось</h2>
-        <ul>
+        <ul class="perelikrobit">
           <li>
             <img
               src="./images/works/box1.jpg"

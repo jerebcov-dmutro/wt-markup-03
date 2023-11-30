@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
-@import 'node_modules/modern-normalize/modern-normalize.css';
+@import '/css/modern-normalize.css';
 :root {
     --st-color: #2196F3;
     --sd-color: #757575;
@@ -8,8 +8,8 @@
     --gr-color: #212121; 
 }
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0, 0, 0, 0;
+    padding: 0, 0, 0, 0;
     font-family: Roboto, sans-serif;
     color: var(--gr-color);
 
@@ -23,16 +23,42 @@ button {
     border: none;
 }
 
-.perevagu-fon
+h1
 {
-    height: 120px;
-    width: 270px;
-    background-color: #F5F4FA;
-
+    margin: 0 0 0 0;
 }
 
+.header
+{
 
-
+    display: flex;
+    justify-content: center;
+    flex-basis: 1170px;
+    height: 80px;
+    
+}
+.about
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-basis: 290px;
+    
+}
+.headernav
+{
+    display: flex;
+    align-items: center;
+    flex-basis: 528px;
+    
+}
+.headercont
+{
+    display: flex;
+    align-items: center;
+    flex-basis: 333px;
+    justify-content: space-between;
+}
 .logo {
     text-decoration: none;
     color: #000;
@@ -65,9 +91,21 @@ main h1 {
     height: 600px;
     width: 100%;
     background-color: #2F303A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
+.m-background>span
+{
 
-.m-background>button {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+}
+.zamovutu {
 
     height: 50px;
     width: 200px;
@@ -77,18 +115,39 @@ main h1 {
     font-weight: 700px;
     border-radius: 4px;
     cursor: pointer;
+    font-weight: 500;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.75);
+    
 }
+.centner
+{
+    height: 251px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-.m-background>button:hover {
+}
+.zamovutu:hover {
     background-color:#188CE8;
-}
 
+}
+h1
+{
+text-align: center;
+flex-basis: 130px;
+}
 .hide {
     display: none;
 }
 
 .accom {
+    width: 1170px;
+    height: 251px;
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+
+    flex-basis: 1170px;
 
 }
 
@@ -96,18 +155,59 @@ main h1 {
     text-transform: uppercase;
     color: var(--gr-color);
 }
+.accom>li
+{
 
+height: 251px;
+display: flex;
+flex-direction: column;
+flex-basis: 251px;
+
+}
+.accom>li>div {
+    height: 120px;
+    width: 270px;
+    background-color: #F5F4FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.accom>li>h3
+{
+
+}
+.accom>li>p 
+{
+
+}
+
+
+.worksektion
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .worksektion h2 {
 
     font-weight: 700;
     font-size: 36px;
+    display: flex;
+    justify-content: center;
 }
 
 .worksektion img {
     border-radius: 10px;
 }
 
-
+.perelikrobit
+{
+    display: flex;
+    justify-content: space-between;
+    height: 386px;
+    width:1170px;
+}
 
 .ourteam h2 {
     font-weight: 700;
